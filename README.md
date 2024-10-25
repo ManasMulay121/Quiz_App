@@ -12,3 +12,11 @@ Currently, two official plugins are available:
 2. after cloning enter "npm install" to install all the necessary dependencies if at all there's any error use the "--legacy-peer-deps" flag
 3. now you are ready to run this, ensure these are the files in your cwd
 4. And run the command "npm run dev"
+
+# What can this webApp do?
+1.you can create quizes, in it..
+2.you can create new questions, copy them
+3.change options, add options upto 30
+4.name the quiz and give description about them
+
+(The backend isn't ready yet for this application!)
