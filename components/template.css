@@ -1,0 +1,28 @@
+/* Reset default body and html margins and padding */
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	box-sizing: border-box;
+  }
+  
+  /* Ensure no extra margins/paddings on template section */
+  .template_section {
+	margin: 0;
+	padding: 0;
+	width: 100vw; /* Ensures the section takes the full viewport width */
+  }
+  
+  /* Adjust the template_top styling */
+  .template_top {
+	box-sizing: border-box; /* Ensures padding is part of the total width */
+	width: 100vw; /* Full width of the viewport */
+	padding-right: 0px;
+	margin: 0; /* No margin */
+	background-color: #ecf6fc; /* Example background color to visualize the space */
+  }
+  
+  .create:hover{
+	background-color: rgb(78, 159, 245);
+  }

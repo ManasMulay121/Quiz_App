@@ -1,0 +1,41 @@
+
+
+.from_header {
+	font-family: 'Roboto', sans-serif; /* Use the Google font */
+    display: flex; /* This allows children to be side by side */
+    align-items: center; /* Centers items vertically */
+	justify-content: space-between;
+	margin: 5px 15px;
+	background-color: #fff;
+}
+
+.form_header_left {
+	font-family: 'Roboto', sans-serif; /* Use the Google font */
+    display: flex; /* Align items in this section side by side */
+    align-items: center; /* Centers items vertically */
+	justify-content: space-evenly;
+}
+
+.form_header_right {
+	font-family: 'Roboto', sans-serif; /* Use the Google font */
+    display: flex; /* Align items in this section side by side */
+    align-items: center; /* Centers items vertically */
+	justify-content: space-between;
+}
+
+.form_name{
+	border: none;
+	outline: none;
+	font-family: 'Google Sans', 'Roboto';
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 15px;
+	color: #202124;
+	width: 120px;
+}
+
+.form_header_icon{
+	color: #202124;
+	font-size: 20px;
+}

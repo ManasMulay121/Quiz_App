@@ -1,0 +1,50 @@
+
+
+.mainbody{
+	margin-left: 120px;
+	margin-right: 160px;
+}
+
+.mainbody_top{
+	margin-top: 25px;
+}
+
+.doc_card_content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.doc_content{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* margin-top: 5px; */
+}
+
+.doc_card{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 200px;
+	margin-right: 20px;
+}
+
+.doc_card:hover{
+	border: 1px solid rgb(41, 166, 244);
+
+}
+
+.doc_image{
+	box-sizing: border-box;
+	height: 120px;
+	width: 198px;
+	
+}
+
+.content_left{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

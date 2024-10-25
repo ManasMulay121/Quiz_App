@@ -70,12 +70,12 @@ export default function Login() {
 						</RadioGroup>
 					</FormControl>
 					<FormControl>
-					<FormLabel>Email</FormLabel>
+					<FormLabel>Login Id</FormLabel>
 					<Input
 						// html input attribute
-						name="email"
-						type="email"
-						placeholder="johndoe@email.com"
+						name="LoginId"
+						type="text"
+						placeholder="Enter the login Id"
 					/>
 				</FormControl>
 				<FormControl>
@@ -83,7 +83,7 @@ export default function Login() {
 					<Input
 						name="password"
 						type="password"
-						placeholder="password"
+						placeholder="Enter password"
 					/>
 				</FormControl>
 				<Button sx={{ mx:14, mt: 1}}>
